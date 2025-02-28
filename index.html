@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Sign-in and Sign-up forms</title>
+    <style>
+        .form1{
+            border: 1px dotted black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 100px;
+            margin-top: 40px;
+            margin-right:70%;
+            border-radius: 20px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 2px 2px rgb(54, 51, 51);
+            position: absolute;
+            width:450px;
+
+        }
+        input{
+            margin: 5px 80px 5px 0px;
+            padding:10px;
+            width: 400px;
+
+
+
+        }
+        label{
+            color: darkorchid;
+            font-weight: bold;
+            font-size: medium;
+
+        }
+        body{
+            background-color: lightblue;
+            font-size: small;
+
+
+
+
+        }
+        h2{
+            color: #eb0885;
+            
+        }
+        a{
+            text-decoration: none;
+            color:#db21cc;
+            font-weight:bold ;
+        }
+        h1{
+            margin-left: 10%;
+            margin-top: 2%;
+        }
+        button{
+            
+            background-color: #eb0885;
+            margin: 5px 80px 5px 10px;
+            padding:10px;
+            width:400px;
+            color: white;
+            font-weight: bolder;
+
+            
+
+
+
+        }
+        img{
+            width:30px;
+            height:20px;
+            color: #eb0885;
+        }
+        .form2{
+            border: 1px dotted black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-left: 800px;
+            margin-top: 40px;
+            margin-right:40%;
+            border-radius: 20px;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 2px 2px rgb(54, 51, 51);
+            position: absolute;
+            width:450px;
+
+        }
+        #img1{
+            width:30px;
+            height:30px;
+            margin-bottom:0px;
+            margin-top:0px;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+   <h1>SIGN-UP &amp SIGN-IN</h1> 
+   <form class="form1">
+    <label for="fname" >First name</label><br>
+    <input id="fname" placeholder="Enter your first name" type="text" required autofocus/><br>
+    <label for="lname">Last name</label><br>
+    <input id="lname" type="text" placeholder="Enter your last name" optional /><br>
+    <label for="Email">Email address</label><br>
+    <input id="Email" type="email" placeholder="Enter your Email" required/><br>
+    <label for="pwd">Password</label><br>
+    <input id="pwd" type="password" placeholder="Enter a password" required/><br>
+    <label for="pwd2">Confirm password</label><br>
+    <input id="pwd2" type="password" placeholder="Confirm your password" required/><br>
+    <p style="color:black">Password must contain atleast five characters <br><span>A strong password contains a combination of letters, numbers and symbols.</span></p>
+    <h2><img src="https://www.shutterstock.com/shutterstock/photos/1556855036/display_1500/stock-vector-scroll-down-icon-drag-push-below-symbol-for-design-presentation-website-or-apps-elements-1556855036.jpg"/>Get updates on our shop news and promotions</h2>
+    <button type="submit" >CREATE ACCOUNT</button>
+    <P>Already have an account  &#63 Click <a href="">here</a></P><br>
+   </form>
+   <form class="form2">
+    <label for="Email">Email address</label><br>
+    <input id="Email" type="email" placeholder="Enter your Email"/><br>
+    <label for="pwd">Password</label><br>
+    <input id="pwd" type="password" placeholder="Enter a password" />
+    <a href="https://fontawesome.com/icons/eye-slash?f=classic&s=solid"><span class="eye-icon" id="eye-icon"></span></a>
+    <p>Forgot your password</p>
+    <button style="color: white; font-weight: bolder; font-size: large;">SIGNUP <img id="img1" src="https://cdn.iconscout.com/icon/premium/png-512-thumb/or-4492691-3724086.png?f=webp&w=256"/>SIGNIN</button>
+    <p>Remember</p>
+    
+ 
+   </form>
+  
+</body>
+</html>
